@@ -1,11 +1,13 @@
 require 'pivotal-tracker'
 
 SCHEDULER.every '1m', first_in: 0 do |job|
-  nateholland1  = '' # <-- Your PivotalTracker username goes here
-  GaugeHolland  = '' # <-- Your PivotalTracker password goes here
-  Nate Holland = '' # <-- Your name as it appears in PivotalTracker
+  # The API key of your account
+  TOKEN = '288cf81cb68c18f634d1314077dccebb'
+  # The number of the project to track
+  PROJECT = 1120564
 
-  PivotalTracker::Client.token(username, password)
+  PivotalTracker::Client.token = TOKEN
+  PivotalTracker::Client.use_ssl = true
 
   statuses = [:unstarted, :started, :finished]
   stories  = Hash.new { |hash, key| hash[key] = [] }

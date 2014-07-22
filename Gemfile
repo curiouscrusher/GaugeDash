@@ -4,4 +4,4 @@ gem 'dashing'
 
 ruby '2.0.0'
 
-gem 'pivotal-tracker', '>=0.5.12'
+gem 'pivotal-tracker', :git => 'git://github.com/amair/pivotal-tracker.git'
