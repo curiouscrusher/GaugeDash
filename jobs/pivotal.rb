@@ -3,8 +3,6 @@ require 'pivotal-tracker'
 SCHEDULER.every '1m', first_in: 0 do |job|
   # The API key of your account
   TOKEN = '288cf81cb68c18f634d1314077dccebb'
-  # The number of the project to track
-  PROJECT = 1120564
 
   PivotalTracker::Client.token = TOKEN
   PivotalTracker::Client.use_ssl = true
