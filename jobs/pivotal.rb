@@ -1,7 +1,7 @@
 require 'pivotal-tracker'
 
 SCHEDULER.every '30m', first_in: 0 do |job|
-  nate@gaugeinteractive.com  = '' # <-- Your PivotalTracker username goes here
+  nateholland1  = '' # <-- Your PivotalTracker username goes here
   GaugeHolland  = '' # <-- Your PivotalTracker password goes here
   Nate Holland = '' # <-- Your name as it appears in PivotalTracker
 
