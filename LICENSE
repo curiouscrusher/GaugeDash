@@ -1,11 +1,3 @@
-github_dashboard
-================
-
-Personal dashboard with Github, Facebook, Harvest, Hacker News, PC News widgets. Built on top of [Dashing](https://github.com/shopify/dashing/). Deployable to Heroku.
-Example can be found [here](http://github-dashboard.herokuapp.com/sample).
-
-License
-=======
 The MIT License (MIT)
 
 Copyright (c) 2013 Huy Thanh Nguyen
