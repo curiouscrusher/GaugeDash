@@ -1,6 +1,7 @@
 source :rubygems
 
 gem 'dashing'
+gem 'github_api'
 gem 'activesupport'
 gem 'xml-simple'
 gem 'harvested'

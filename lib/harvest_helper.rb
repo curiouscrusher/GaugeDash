@@ -1,6 +1,6 @@
 require 'harvested'
 
-HARVEST_SUBDOMAIN = 'https://gaugeinteractive.harvestapp.com'
+HARVEST_SUBDOMAIN = 'https://gaugeinteractive.harvestapp.com/time.'
 HARVEST_EMAIL = 'nate@gaugeinteractive.com'
 HARVEST_PASSWORD = 'Gauge_2014!'
 # Interval for jobs to schedule
