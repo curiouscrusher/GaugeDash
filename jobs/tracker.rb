@@ -54,7 +54,7 @@ class TrackerConfig
   def self.read
     @config ||= YAML.load(
       ERB.new(
-        File.read('config/tracker.yml')
+        File.read('../config/tracker.yml')
       ).result(TrackerConfig.new.get_binding)
     )
   end
