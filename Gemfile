@@ -6,6 +6,8 @@ gem 'json'
 
 gem 'tracker'
 
+gem 'harvested'
+
 # gem "zendesk_api"
 
 ruby '2.0.0'
