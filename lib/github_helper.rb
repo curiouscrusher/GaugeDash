@@ -3,17 +3,17 @@ require 'github_api'
 require 'active_support/time'
 
 # Github login
-GITHUB_LOGIN = ''
+GITHUB_LOGIN = 'curiouscrusher'
 # Github password
-GITHUB_PASSWORD = ''
+GITHUB_PASSWORD = 'please123'
 # Repo owner
-GITHUB_OWNER = ''
+GITHUB_OWNER = 'Nate Holland'
 # Repo name
-GITHUB_REPO = ''
+GITHUB_REPO = 'gauge-dash'
 # Github client id
-GITHUB_CLIENT_ID = ''
+GITHUB_CLIENT_ID = '7f060103f2b4c1a9afcf'
 # Github client secret
-GITHUB_CLIENT_SECRET = ''
+GITHUB_CLIENT_SECRET = 'd6246f1860136bae3a4888db1dbfc435935bda36'
 # Interval for jobs to schedule
 GITHUB_JOB_INTERVAL = '15m'
 # Delay for first run of jobs

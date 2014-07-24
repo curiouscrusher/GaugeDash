@@ -1,5 +1,7 @@
 source :rubygems
 
+ruby '2.0.0'
+
 gem 'dashing'
 gem 'github_api'
 gem 'activesupport'
