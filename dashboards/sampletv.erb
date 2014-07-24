@@ -8,7 +8,7 @@ $(function() {
 </script>
 
 
-<% content_for :title do %>1080p dashboard<% end %>
+<% content_for(:title) { "1080p dashboard" } %>
 
 <div class="gridster">
   <ul>
@@ -43,7 +43,7 @@ $(function() {
     </li>
 
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
-      <div data-id="convergence" data-view="Graph" data-title="Convergence" style="background-color:#47bbb3;"></div>
+      <div data-id="convergence" data-view="Graph" data-title="Convergence" style="background-color:#47bbb3;" data-moreinfo="poop" ></div>
     </li>
 
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
