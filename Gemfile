@@ -6,7 +6,7 @@ gem 'json'
 
 gem 'tracker'
 
-gem 'harvested'
+# gem 'harvested'
 
 # gem "zendesk_api"
 
