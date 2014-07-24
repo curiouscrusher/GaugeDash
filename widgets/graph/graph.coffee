@@ -15,7 +15,6 @@ class Dashing.Graph extends Dashing.Widget
       element: @node
       width: width
       height: height
-      renderer: @get("graphtype")
       series: [
         {
         color: "#fff",
