@@ -4,7 +4,9 @@ gem 'dashing'
 
 gem 'json'
 
-gem "zendesk_api"
+gem 'tracker'
+
+# gem "zendesk_api"
 
 ruby '2.0.0'
 

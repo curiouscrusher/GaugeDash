@@ -1,0 +1,6 @@
+---
+auth_token: <%= @288cf81cb68c18f634d1314077dccebb %>
+projects:
+  my_tracker_project:
+    project_id: 1120564
+    user: nateholland1
