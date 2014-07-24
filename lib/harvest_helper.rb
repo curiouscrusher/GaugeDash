@@ -1,8 +1,8 @@
 require 'harvested'
 
-HARVEST_SUBDOMAIN = ''
-HARVEST_EMAIL = ''
-HARVEST_PASSWORD = ''
+HARVEST_SUBDOMAIN = 'https://gaugeinteractive.harvestapp.com'
+HARVEST_EMAIL = 'nate@gaugeinteractive.com'
+HARVEST_PASSWORD = 'Gauge_2014!'
 # Interval for jobs to schedule
 HARVEST_JOB_INTERVAL = '15m'
 # Delay for first run of jobs
